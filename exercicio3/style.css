@@ -2,24 +2,33 @@
   padding: 0;
   margin: 0;
 }
+
 header{
   
+}
+
+main {
+  font-family: Helvetica;
 }
 
 section{
   float: left;
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
-  padding: 40px;
+  width: 70vw;
+  padding: 1rem;
+  text-align: justify;
+  background-color: aquamarine;
 }
 
 aside{
   float:right;
  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  padding: 20px;
-  width: 340px;
+  padding: 1rem;
+  width: 20vw;
+  text-align: justify;
+  background-color: blueviolet;
 }
 
 article{
-  margin: 10px 0;
+  margin: 1rem 0;
 }
